@@ -13,8 +13,6 @@
  end
 
 
-  fido = Dog.new
+  fido = Dog.new("Fido")
   fido.name
   fido.bark
-
-
