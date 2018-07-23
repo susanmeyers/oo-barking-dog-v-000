@@ -1,27 +1,39 @@
 
   class Dog
-  attr_accessor :name
-
-  def initiatlize(name= "Fido")
+  def name= (name)
   @name= name
   end
 
-  def name(name)
-    @name= name
-  end
 
   def name
     @name
   end
 
+
   def bark
      puts "woof!"
    end
+ end
+
+#put in irb to get result
+  #fido = Dog.new("Fido")
+  #fido.name
+  #fido.bark
+
+  #class Dog
+  #attr_accessor :name
+
+  #def initialize(name)
+  #@name= name
+  #end
 
 
-  fido = Dog.new
-  fido.name
-  fido.bark
+  #def bark
+     #puts "woof!"
+   #end
+ #end
 
 
-end
+  #fido = Dog.new("Fido")
+  #fido.name
+  #fido.bark
