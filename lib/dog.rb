@@ -16,9 +16,9 @@
  end
 
 
-  fido = Dog.new("Fido")
-  fido.name
-  fido.bark
+  #fido = Dog.new("Fido")
+  #fido.name
+  #fido.bark
 
   #class Dog
   #attr_accessor :name
