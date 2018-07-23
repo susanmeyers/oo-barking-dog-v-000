@@ -15,7 +15,7 @@
    end
  end
 
-
+#put in irb to get result
   #fido = Dog.new("Fido")
   #fido.name
   #fido.bark
